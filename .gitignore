@@ -1,0 +1,45 @@
+# Archive Directories #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Minified Files #
+*.min.css
+*.min.js
+
+# Fonts
+*.woff
+*.ttf
+*.svg
+*.eot
+
+# Logs & Databases #
+*.log
+*.sql
+*.sqlite
+
+# OS Generated Files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build Systems #
+node_modules/
+bower_components/
+.sass-cache
+*.css.map
+build/
+dist/
+bin/
+maps/
+.build
+Packages/
