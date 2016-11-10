@@ -45,4 +45,4 @@ gulp.task('watch', function() {
   gulp.watch(paths.SCRIPTS, ['webpack']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['html', 'sass', 'webpack', 'watch']);
